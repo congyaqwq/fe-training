@@ -1,0 +1,20 @@
+main {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+}
+
+div {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+div:hover {
+    background-color: blueviolet;
+}
