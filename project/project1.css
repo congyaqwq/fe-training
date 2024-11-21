@@ -1,0 +1,29 @@
+footer {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+}
+
+.randombox {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+input {
+    width: 746px;
+    height: 40px;
+    border-radius: 87px 87px 87px 87px;
+    padding: 1px 87px 1px 52px;
+    background: #ffff;
+
+}
+
+input::placeholder {
+    font-size: 18px;
+}
