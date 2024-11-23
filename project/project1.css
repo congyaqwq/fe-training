@@ -2,17 +2,19 @@ footer {
     border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    width: 305px;
+    width: 245px;
+        justify-content: center;
 }
 
 .randombox {
     flex-shrink: 0;
     width: 80px;
     height: 80px;
-    background-color: aqua;
+    background-color: bisque;
     border: 1px solid black;
     cursor: pointer;
     transition: all .3s;
+    
 }
 
 input {
@@ -26,4 +28,11 @@ input {
 
 input::placeholder {
     font-size: 18px;
+}
+.randombox:hover {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
 }
