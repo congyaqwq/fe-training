@@ -1,20 +1,39 @@
 main {
     border: 1px solid red;
+    width: 305px;
+    padding: 20px;
+}
+
+.display {
+   height: 40px;
+   padding-left: 10px;
+   font-size: 30px;
+   color:blue;
+   font-style: italic;
+   border: 1px solid black;
+   border-radius: 8px;;
+}
+
+.buttons {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 305px;
+    align-items: center;   
+    justify-content: center;
+    gap: 10px;
 }
 
-div {
-    flex-shrink: 0;
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: all .3s;
+.buttons .button {
+    width: 30%;
+    height: 30px;
 }
 
-div:hover {
-    background-color: blueviolet;
+.button.equal {
+    background-color: rgb(254, 140, 140);
+    border-color: rgb(254, 140, 140);
 }
+
+.button.equal:active {
+    background-color: rgb(249, 14, 14);
+}
+
