@@ -5,13 +5,14 @@ main {
 }
 
 .display {
-   height: 40px;
-   padding-left: 10px;
-   font-size: 30px;
-   color:blue;
-   font-style: italic;
-   border: 1px solid black;
-   border-radius: 8px;;
+    height: 40px;
+        padding-left: 10px;
+        font-size: 30px;
+        color: blue;
+            font-style: italic;
+            border: 1px solid black;
+        border-radius: 8px;
+            ;
 }
 
 .buttons {
@@ -36,4 +37,18 @@ main {
 .button.equal:active {
     background-color: rgb(249, 14, 14);
 }
+.input {
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 30px;
+    color: blue;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
 
+.input::placeholder {
+    color: rgb(89, 89, 160)
+}
